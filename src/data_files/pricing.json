@@ -1,38 +1,38 @@
 {
-  "title": "Simple, Transparent Pricing",
-  "subTitle": "Boost efficiency with ScrewFast's clear, value-driven plans.",
+  "title": "Flexible, Transparent Pricing",
+  "subTitle": "Maximize your efficiency with A4B's value-driven plans.",
   "badge": "Best value",
   "thirdOption": "Enterprise Solutions?",
   "btnText": "Get a Custom Quote",
 
   "starterKit": {
-    "name": "Starter Kit",
-    "description": "Best option for DIY projects",
-    "price": "49",
+    "name": "Business Starter Plan",
+    "description": "Best for small and medium enterprises",
+    "price": "99",
     "cents": ".00",
     "billingFrequency": "USD / monthly",
     "features": [
-      "Key hardware tools",
-      "Access to guides & tutorials",
-      "Standard support"
+      "Access to xFlow and xFile",
+      "Standard support",
+      "Basic automation tools"
     ],
-    "purchaseBtnTitle": "Get the Starter Kit",
+    "purchaseBtnTitle": "Get the Starter Plan",
     "purchaseLink": "#"
   },
 
   "professionalToolbox": {
-    "name": "Professional Toolbox",
-    "description": "Best for large scale uses",
-    "price": "89",
+    "name": "Enterprise Suite",
+    "description": "Best for large-scale operations",
+    "price": "199",
     "cents": ".00",
     "billingFrequency": "USD / monthly",
     "features": [
-      "Premium tool selection",
+      "Full access to all A4B solutions",
       "Priority support",
-      "Exclusive content & deals",
-      "Bulk order discounts"
+      "Advanced automation and AI tools",
+      "Customizable workflows"
     ],
-    "purchaseBtnTitle": "Get the Professional Toolbox",
+    "purchaseBtnTitle": "Get the Enterprise Suite",
     "purchaseLink": "#"
   }
 }

@@ -1,29 +1,29 @@
 {
-  "subTitle": "Ask us anything about our brand and products, and get factual responses.",
+  "subTitle": "Ask us anything about our digital solutions and services, and get factual responses.",
   "faqs": [
     {
-      "question": "What types of tools are included in the Starter Kit?",
-      "answer": "The Starter Kit features essential hand and power tools for diverse DIY projects, including hammers, drills, screwdrivers, and a variety of fasteners. It's a curated selection to help beginners and experienced DIYers alike tackle most home improvement tasks."
+      "question": "What is included in A4B's Digital Transformation Suite?",
+      "answer": "A4B's Digital Transformation Suite includes xPlatform for seamless backend integration, xFlow for process management, xFile for document and digital asset management, iSign for digital signing, and xBot for AI-driven automation. It's a comprehensive toolkit for modern enterprises."
     },
     {
-      "question": "Can I upgrade from the Starter Kit to the Professional Toolbox?",
-      "answer": "Absolutely! You can upgrade to the Professional Toolbox at any time to access a wider range of high-quality tools, enjoy priority customer support, and receive exclusive content. Contact our support team for a seamless transition."
+      "question": "Can I customize A4B solutions to fit my business needs?",
+      "answer": "Yes! A4B solutions are fully customizable to align with your organization's specific requirements. Our team works closely with you to tailor features and workflows, ensuring a seamless fit for your operations."
     },
     {
-      "question": "What discounts are available for bulk orders through the Professional Toolbox plan?",
-      "answer": "Professional Toolbox members are entitled to exclusive discounts on bulk orders, the percentage of which may vary depending on the order volume. Get in touch with us to discuss your needs, and we'll provide a tailored discount structure."
+      "question": "What are the benefits of using A4B's Enterprise Solutions?",
+      "answer": "A4B's Enterprise Solutions provide scalable platforms, advanced security, and dedicated support to meet the needs of large organizations. These solutions enable streamlined operations, enhanced user experiences, and actionable insights."
     },
     {
-      "question": "What kind of customer support can I expect?",
-      "answer": "All our customers receive dedicated email support. With the Starter Kit, you'll receive our standard support, while the Professional Toolbox plan upgrades you to priority support, meaning faster response times and specialized assistance."
+      "question": "What level of customer support does A4B provide?",
+      "answer": "All A4B customers receive dedicated email and chat support. For Enterprise clients, we offer priority support with faster response times and personalized assistance to ensure optimal system performance."
     },
     {
-      "question": "How current are the online resources and tutorials?",
-      "answer": "We regularly update our online resources and tutorials to reflect the latest trends in DIY and construction, as well as introductions to new tools and techniques. Our material aims to be comprehensive and user-friendly for all skill levels."
+      "question": "How frequently are A4B's features updated?",
+      "answer": "We continuously enhance our platforms to keep up with the latest industry trends and customer feedback. Regular updates ensure our tools remain reliable, secure, and efficient for your evolving needs."
     },
     {
-      "question": "Does ScrewFast offer services for large-scale construction projects?",
-      "answer": "Yes, our Enterprise Solutions are designed for larger companies requiring comprehensive services. We provide consultation, planning, and supply of high-grade tools and materials, as well as staffing solutions for substantial construction needs. Contact us for a customized quote."
+      "question": "Does A4B provide services for multi-site organizations?",
+      "answer": "Yes, A4B specializes in solutions for multi-site organizations. Our platforms support distributed teams, centralized management, and robust communication channels, making them ideal for organizations with diverse operations."
     }
   ]
 }
