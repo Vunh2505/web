@@ -36,56 +36,55 @@ interface Article {
 const articles: Article[] = [
   {
     isRightSection: true,
-    title: "Delivering Expert Guidance",
+    title: "Empowering Businesses with Tailored Solutions",
     subTitle:
-      "Embarking on a construction project can be overwhelming. With our professional consultation services, we guide you through every stage, ensuring you make informed decisions. Whether you are a DIY enthusiast or a skilled contractor, our experts are on hand to offer tailored advice on product selection, project scope, and compliance with local regulations.",
+      "Navigating digital transformation can be complex. At A4B, we guide you through every step, ensuring informed decisions and seamless implementation. Our experts provide personalized advice on platform customization, integration strategies, and operational efficiency.",
     single: false,
     imgOne: blueprints,
-    imgOneAlt: "Blueprints and digital tablet with construction plans.",
+    imgOneAlt: "Digital blueprints and strategic planning tools.",
     imgTwo: personWorking,
-    imgTwoAlt: "Person working in the office",
+    imgTwoAlt: "Person working on a digital transformation plan.",
   },
   {
     isRightSection: false,
-    title: "Transforming Designs into Reality",
+    title: "Transforming Operations with Innovative Tools",
     subTitle:
-      "Our skilled craftsmen bring precision and excellence to every construction project. From minor installations to substantial structural work, ScrewFast offers reliable construction services to turn your plans into tangible outcomes. We ensure the highest standards of safety and workmanship, utilizing top-quality tools and materials from our extensive inventory.",
+      "A4B delivers cutting-edge digital solutions to transform your operations. From workflow automation to real-time analytics, our platforms are designed to drive business success with precision and reliability.",
     img: beforeAfter,
-    imgAlt: "Construction site before and after",
+    imgAlt: "Before and after implementing A4B's solutions.",
     btnExists: true,
     btnTitle: "Learn More",
     btnURL: "#",
   },
   {
     isRightSection: true,
-    title: "Navigating Projects with Professional Oversight",
+    title: "Streamlining Processes with Intelligent Oversight",
     subTitle:
-      "Effective project management is at the heart of any successful build. ScrewFast provides thorough planning and robust management services that keep your project on time and within budget. Let us handle the complexities of workflow coordination, resource allocation, and stakeholder communication while you focus on your vision.",
+      "Effective process management is key to success. A4B provides comprehensive solutions for resource allocation, workflow optimization, and communication management, ensuring your business runs smoothly and efficiently.",
     single: false,
     imgOne: constructionWorkers,
-    imgOneAlt: "Construction workers orchestrating a project",
+    imgOneAlt: "Team collaborating on a digital workflow.",
     imgTwo: aerialView,
-    imgTwoAlt: "Aerial view of managed construction",
+    imgTwoAlt: "Aerial view of optimized processes in action.",
   },
   {
     isRightSection: false,
-    title: "Ensuring Long-lasting Performance",
+    title: "Ensuring Long-term Success with Robust Support",
     subTitle:
-      "Our commitment to your project doesn't end at completion. ScrewFast offers ongoing maintenance and support services to ensure your construction's longevity and performance. From regular check-ups to emergency assistance, our responsive team is there to provide seamless support.",
+      "Our commitment doesn't end with deployment. A4B offers ongoing support and updates to ensure your platforms remain effective and aligned with your business goals.",
     img: usingTools,
-    imgAlt:
-      "Man in orange and black vest wearing white helmet holding yellow and black power tool",
+    imgAlt: "Team providing technical support and updates.",
   },
   {
     isRightSection: true,
-    title: "Crafting Bespoke Strategies for Unique Challenges",
+    title: "Crafting Custom Strategies for Complex Needs",
     subTitle:
-      "For our larger enterprise clients, ScrewFast offers custom solutions designed to meet specific industry challenges. By understanding your unique needs, we engineer tailored strategies aimed at optimizing your operations, enhancing efficiency, and driving your business forward.",
+      "A4B partners with enterprises to design bespoke strategies tailored to their unique challenges. By leveraging advanced technologies, we drive innovation, enhance efficiency, and support sustainable growth.",
     single: false,
     imgOne: progressBuilding,
-    imgOneAlt: "In progress building structure",
+    imgOneAlt: "Visualization of a scalable business platform.",
     imgTwo: underConstruction,
-    imgTwoAlt: "Brown and gray building under construction",
+    imgTwoAlt: "Digital transformation framework under development.",
     btnExists: true,
     btnTitle: "Read more",
     btnURL: "#",
@@ -97,26 +96,26 @@ const pageTitle: string = `Services | ${SITE.title}`;
 
 <MainLayout
   title={pageTitle}
-  structuredData={{
+   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://screwfast.uk/services",
-    "url": "https://screwfast.uk/services",
-    "name": "Expert Consultation Services | ScrewFast",
-    "description": "Uniting expertise with your vision, ScrewFast provides exceptional service and comprehensive solutions in the hardware and construction industry, from consultation to project completion.",
+    "@id": "https://a4b.com/services",
+    "url": "https://a4b.com/services",
+    "name": "Empowering Digital Transformation | A4B",
+    "description": "A4B provides advanced digital solutions and services to help businesses navigate their digital transformation journey. From platform integration to custom strategies, we ensure success at every stage.",
     "isPartOf": {
-        "@type": "WebSite",
-        "url": "https://screwfast.uk",
-        "name": "ScrewFast",
-        "description": "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs."
+      "@type": "WebSite",
+      "url": "https://a4b.com",
+      "name": "A4B",
+      "description": "A4B delivers cutting-edge digital solutions, empowering businesses with streamlined operations and user-centric platforms.",
     },
     "inLanguage": "en-US"
   }}
 >
   <!--MainSection is the introductory section of the page, it also contains a CTA button-->
   <MainSection
-    title="Uniting Expertise with Your Vision"
-    subTitle="At ScrewFast, we take pride in providing comprehensive solutions and exceptional service in the hardware and construction industry. Our experienced team is dedicated to supporting your project from inception to completion with a range of specialized services."
+    title="Empowering Digital Transformation"
+    subTitle="At A4B, we provide comprehensive digital solutions tailored to your unique needs. From strategy to implementation, our team ensures your business thrives in the digital age with cutting-edge platforms and unmatched support."
     btnExists={true}
     btnTitle="Schedule a Consultation"
     btnURL="#"
@@ -159,23 +158,24 @@ const pageTitle: string = `Services | ${SITE.title}`;
   }
   <!--FeaturesStats section showcases essential stats valuable to users-->
   <FeaturesStats
-    title="By the Numbers"
-    subTitle="Our commitment to quality and reliability is evident in every project we undertake. At ScrewFast, we are dedicated to delivering industry-leading services that ensure your construction projects are built to last."
-    mainStatTitle="96%"
-    mainStatSubTitle="of our clients rate their experience with ScrewFast as exceptional"
-    stats={[
-      {
-        stat: "99.8%",
-        description: "project completion rate",
-      },
-      {
-        stat: "5,000+",
-        description: "successful installations",
-      },
-      {
-        stat: "85%",
-        description: "client growth year-over-year",
-      },
-    ]}
-  />
+  title="Our Impact in Numbers"
+  subTitle="A4B’s innovative solutions and client-centric approach have helped businesses achieve unprecedented growth and operational efficiency. Here’s what sets us apart."
+  mainStatTitle="98%"
+  mainStatSubTitle="of our clients report improved efficiency with A4B"
+  stats={[
+    {
+      stat: "100%",
+      description: "successful project delivery rate",
+    },
+    {
+      stat: "10,000+",
+      description: "businesses empowered worldwide",
+    },
+    {
+      stat: "90%",
+      description: "client retention rate year-over-year",
+    },
+  ]}
+/>
+
 </MainLayout>

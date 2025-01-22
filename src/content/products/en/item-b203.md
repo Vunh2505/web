@@ -1,13 +1,13 @@
 ---
-title: "SF-BN B203"
-description: "Tap Bolts and Nuts Set"
+title: "xFile Document Management Solution"
+description: "Efficient, Secure, and Scalable Document Management"
 main:
   id: 3
   content: |
-    Meet the SF-BN B203 – your reliable companion for professional-grade fastening. This comprehensive box set comes with a versatile selection of tap bolts and nuts, meticulously crafted to provide the strongest hold for your construction and assembly projects.
+    Meet xFile – the ultimate document management solution for modern businesses. Designed to simplify the organization, storage, and retrieval of documents, xFile offers a robust platform that ensures security, scalability, and seamless collaboration across teams.
   imgCard: "@/images/product-image-3.avif"
   imgMain: "@/images/product-image-main-3.avif"
-  imgAlt: "Mockup boxes of a tap bolts and nuts set"
+  imgAlt: "Mockup of xFile document management system interface"
 tabs:
   - id: "tabs-with-card-item-1"
     dataTab: "#tabs-with-card-1"
@@ -19,37 +19,37 @@ tabs:
     dataTab: "#tabs-with-card-3"
     title: "Blueprints"
 longDescription:
-  title: "Strength Meets Precision"
+  title: "Streamline Your Document Workflows"
   subTitle: |
-    The SF-BN B203 Tap Bolts and Nuts Set offers robust durability and precision for construction professionals, ensuring reliable performance in every application, from house framing to machinery assembly.
+    The xFile Document Management Solution enables businesses to manage documents efficiently, securely, and with ease. From automated workflows to centralized storage, xFile transforms document management into a seamless process.
   btnTitle: "Contact sales to learn more"
   btnURL: "#"
 descriptionList:
-  - title: "Corrosion Resistance"
-    subTitle: "Zinc coating not only provides a polished look but also shields against corrosion, ensuring longevity."
-  - title: "Improved Safety"
-    subTitle: "A secure fitting translates to safer structures with reduced risk of component failure."
-  - title: "Convenience"
-    subTitle: "This all-in-one set means you have the right size on hand, cutting down on project delays and additional trips to the hardware store."
+  - title: "Advanced Security"
+    subTitle: "State-of-the-art encryption ensures your sensitive documents are protected from unauthorized access."
+  - title: "Streamlined Organization"
+    subTitle: "Centralized storage with intuitive categorization and tagging for quick and easy document retrieval."
+  - title: "Seamless Collaboration"
+    subTitle: "Real-time document sharing and version control enhance teamwork across distributed teams."
 specificationsLeft:
-  - title: "Material Composition"
-    subTitle: "Manufactured from high-grade steel, delivering strength and reliability for demanding applications."
-  - title: "Surface Finish"
-    subTitle: "Protected with a zinc coating to offer enhanced corrosion resistance and longevity."
-  - title: "Quantity Per Set"
-    subTitle: "The set includes a balanced selection of 25 tap bolts and 25 matching nuts."
-  - title: "Size Assortment"
-    subTitle: "Features a comprehensive range of sizes to cater to various project requirements, ensuring compatibility and versatility."
+  - title: "Encryption Standards"
+    subTitle: "Built with AES-256 encryption to ensure maximum security for your documents."
+  - title: "Storage Capacity"
+    subTitle: "Supports scalable cloud-based storage solutions, catering to businesses of all sizes."
+  - title: "Access Control"
+    subTitle: "Role-based permissions and detailed audit trails for secure and controlled document access."
+  - title: "Integration Capabilities"
+    subTitle: "Easily integrates with existing platforms like CRM, ERP, and project management tools."
 specificationsRight:
-  - title: "Thread Details"
-    subTitle: "Engineered with precision-cut threads for a secure fit and easy installation."
-  - title: "Mechanical Properties"
-    subTitle: "Each bolt and nut is designed to meet specific load rating or strength grades, suitable for structural applications."
-  - title: "Standards and Certifications"
-    subTitle: "Complies with relevant industry standards and certifications, ensuring consistent quality and safety."
-  - title: "Suitable Applications"
-    subTitle: "Ideal for a wide array of uses, from construction environments to mechanical assemblies that demand strong and secure joints."
+  - title: "Workflow Automation"
+    subTitle: "Automates repetitive tasks like approvals and document routing, saving time and resources."
+  - title: "Compliance"
+    subTitle: "Adheres to global standards, including GDPR, HIPAA, and ISO 27001, ensuring regulatory compliance."
+  - title: "Scalability"
+    subTitle: "Supports thousands of users and terabytes of data, making it ideal for growing businesses."
+  - title: "User-Friendly Interface"
+    subTitle: "Designed with simplicity in mind, ensuring quick onboarding and seamless user experience."
 blueprints:
   first: "@/images/blueprint-1.avif"
-  second: "@/images/blueprint-2.avif"  
+  second: "@/images/blueprint-2.avif"
 ---

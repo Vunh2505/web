@@ -1,13 +1,13 @@
 ---
-title: "SF-FN F303"
-description: "Hex Bolts"
+title: "xFlow Process Automation Platform"
+description: "Streamlined and Scalable Workflow Automation"
 main:
   id: 4
   content: |
-    Introducing the SF-FN F303 Hex Bolts – the perfect choice for heavy-duty fastening applications. Crafted with precision and durability in mind, these hex bolts provide the strength and reliability you need for your toughest projects.
+    Introducing xFlow – the ultimate process automation platform by A4B. Designed to optimize workflows and reduce manual intervention, xFlow helps businesses enhance efficiency, minimize errors, and scale operations seamlessly.
   imgCard: "@/images/product-image-4.avif"
   imgMain: "@/images/product-image-main-4.avif"
-  imgAlt: "Mockup boxes of hex bolts"
+  imgAlt: "Mockup of xFlow process automation interface"
 tabs:
   - id: "tabs-with-card-item-1"
     dataTab: "#tabs-with-card-1"
@@ -19,37 +19,37 @@ tabs:
     dataTab: "#tabs-with-card-3"
     title: "Blueprints"
 longDescription:
-  title: "Heavy-Duty Fastening Solutions"
+  title: "Optimize Your Workflows with xFlow"
   subTitle: |
-    The SF-FN F303 Hex Bolts are designed to handle the toughest fastening challenges with ease. Whether you're working on construction projects or heavy machinery, these hex bolts deliver the strength and reliability you need.
+    xFlow simplifies process automation by enabling businesses to streamline complex workflows and eliminate inefficiencies. With intuitive design and robust scalability, xFlow transforms how organizations operate, delivering measurable improvements in productivity.
   btnTitle: "Contact sales to learn more"
   btnURL: "#"
 descriptionList:
-  - title: "Strength and Durability"
-    subTitle: "Constructed from high-quality materials, these hex bolts are built to withstand heavy loads and tough conditions."
-  - title: "Precision Engineering"
-    subTitle: "Engineered with precision-cut threads and exact specifications, ensuring a tight and secure fit every time."
-  - title: "Versatility"
-    subTitle: "Suitable for a wide range of applications, from construction to machinery, providing versatile fastening solutions."
+  - title: "Workflow Optimization"
+    subTitle: "Automates repetitive tasks, reducing manual workload and freeing up time for strategic initiatives."
+  - title: "Enhanced Collaboration"
+    subTitle: "Provides a unified platform for teams to collaborate effectively, ensuring alignment and transparency."
+  - title: "Scalability"
+    subTitle: "Supports businesses of all sizes, adapting seamlessly as your operations grow and evolve."
 specificationsLeft:
-  - title: "Material"
-    subTitle: "Made from premium-grade steel or alloy, offering exceptional strength and corrosion resistance."
-  - title: "Thread Design"
-    subTitle: "Precision-cut threads ensure optimal grip and reliability, even in high-stress environments."
-  - title: "Quantity"
-    subTitle: "Each set includes a sufficient quantity of hex bolts to tackle various projects and applications."
-  - title: "Sizes"
-    subTitle: "Available in a range of sizes to accommodate different project requirements, ensuring versatility and compatibility."
+  - title: "Automation Capabilities"
+    subTitle: "Includes task routing, approval workflows, and process monitoring for comprehensive automation."
+  - title: "Integration"
+    subTitle: "Easily integrates with CRM, ERP, and other enterprise systems for seamless data flow."
+  - title: "User Roles and Permissions"
+    subTitle: "Offers robust user management features to control access and ensure data security."
+  - title: "Real-Time Monitoring"
+    subTitle: "Provides dashboards and analytics for real-time insights into workflow performance."
 specificationsRight:
-  - title: "Finish"
-    subTitle: "Finished with a protective coating to enhance corrosion resistance and extend service life."
-  - title: "Load Capacity"
-    subTitle: "Designed to meet or exceed industry standards for load-bearing capacity, ensuring reliable performance under heavy loads."
-  - title: "Certifications"
-    subTitle: "Compliant with relevant industry standards and certifications, guaranteeing quality and reliability."
-  - title: "Applications"
-    subTitle: "Ideal for use in construction, machinery, automotive, and other heavy-duty applications that demand strong and reliable fastening."
+  - title: "Cloud-Based Scalability"
+    subTitle: "Leverages cloud infrastructure to ensure reliability and scalability for growing organizations."
+  - title: "Compliance"
+    subTitle: "Adheres to industry standards like GDPR, HIPAA, and ISO, ensuring regulatory compliance."
+  - title: "Customization"
+    subTitle: "Allows businesses to tailor workflows to match specific needs and objectives."
+  - title: "User Interface"
+    subTitle: "Features an intuitive and user-friendly design, ensuring quick adoption and efficient usage."
 blueprints:
   first: "@/images/blueprint-1.avif"
-  second: "@/images/blueprint-2.avif"  
+  second: "@/images/blueprint-2.avif"
 ---

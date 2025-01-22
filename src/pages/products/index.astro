@@ -23,45 +23,42 @@ const product: CollectionEntry<"products">[] = (
 );
 
 // Define variables for page content
-const title: string = "Products";
+const title: string = "Our Solutions";
 const subTitle: string =
-  "Explore the durability and precision of ScrewFast tools, designed for both professionals and enthusiasts. Each of our products is crafted with precision and built to last, ensuring you have the right tool for every job.";
+  "A4B offers cutting-edge digital solutions tailored for businesses of all sizes. From seamless integration to process optimization, our platforms are designed to enhance operational efficiency and deliver exceptional results.";
 
 // Testimonial data that will be rendered in the component
 const testimonials = [
-  // First testimonial data
   {
     content:
-      " \"Since switching to ScrewFast's hardware tools, the efficiency on our construction sites has skyrocketed. The durability of the hex bolts and precision of the machine screws are simply unmatched. It's refreshing to work with a company that truly understands the daily demands of the industry.\" ",
-    author: "Jason Clark",
-    role: "Site Foreman | TopBuild",
+      " \"With A4B's process automation, our team's efficiency has improved significantly. Their xFlow platform transformed the way we manage workflows, saving us countless hours every week.\" ",
+    author: "Emily Davis",
+    role: "Operations Manager | TechFlow Inc.",
     avatarSrc:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
-    avatarAlt: "Image Description",
+    avatarAlt: "Image of Emily Davis",
   },
-  // Second testimonial data
   {
     content:
-      " \"As an interior designer, I'm always looking for high-quality materials and tools that help bring my visions to life. ScrewFast's mixed screws assortment has been a game-changer for my projects, providing the perfect blend of quality and variety. The outstanding customer support was just the cherry on top!\" ",
-    author: "Maria Gonzalez",
-    role: "Interior Designer | Creative Spaces",
+      " \"As a financial analyst, I rely on accurate data insights for decision-making. A4B's analytics tools have revolutionized how we interpret business performance, offering clarity and actionable intelligence.\" ",
+    author: "James Nguyen",
+    role: "Financial Analyst | FinPro Solutions",
     avatarSrc:
       "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
-    avatarAlt: "Image Description",
+    avatarAlt: "Image of James Nguyen",
   },
-  // Third testimonial data
   {
     content:
-      " \"I’ve been a professional carpenter for over 15 years, and I can sincerely say that ScrewFast’s tap bolts and nuts are some of the best I've used. They grip like no other, and I have full confidence in every joint and fixture. Plus, the service is impeccable – they truly care about my project's success.\" ",
-    author: "Richard Kim",
-    role: "Master Carpenter | WoodWright",
+      " \"A4B's document management system, xFile, has streamlined how our team handles contracts and project documentation. The ease of use and reliability are unmatched.\" ",
+    author: "Sophia Taylor",
+    role: "Project Manager | BuildPro",
     avatarSrc:
       "https://images.unsplash.com/photo-1474176857210-7287d38d27c6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
-    avatarAlt: "Image Description",
+    avatarAlt: "Image of Sophia Taylor",
   },
 ];
 
-const pageTitle: string = `Products | ${SITE.title}`;
+const pageTitle: string = `Solutions | ${SITE.title}`;
 ---
 
 <MainLayout
@@ -69,15 +66,15 @@ const pageTitle: string = `Products | ${SITE.title}`;
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://screwfast.uk/products",
-    "url": "https://screwfast.uk/products",
-    "name": "Hardware Tools | ScrewFast",
-    "description": "Explore the durability and precision of ScrewFast tools, designed for both professionals and enthusiasts.",
+    "@id": "https://a4b.com/solutions",
+    "url": "https://a4b.com/solutions",
+    "name": "Business Solutions | A4B",
+    "description": "Explore A4B's innovative digital solutions designed to enhance operational efficiency and drive business success.",
     "isPartOf": {
       "@type": "WebSite",
-      "url": "https://screwfast.uk",
-      "name": "ScrewFast",
-      "description": "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs."
+      "url": "https://a4b.com",
+      "name": "A4B",
+      "description": "A4B delivers cutting-edge digital solutions tailored for businesses of all sizes.",
     },
     "inLanguage": "en-US"
   }}
@@ -102,8 +99,7 @@ const pageTitle: string = `Products | ${SITE.title}`;
       </div>
       <PrimaryCTA title="Customer Stories" url="#testimonials" noArrow={true} />
     </div>
-    <!--Displaying products in alternating styles. Alternative product gets different card styling.-->
-    <!--Maps through all product entries and displays them with either CardSmall or CardWide based on their position.-->
+    <!--Displaying solutions in alternating styles-->
     <section class="grid grid-cols-1 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
       {
         product.map((product, index) => {
@@ -117,19 +113,19 @@ const pageTitle: string = `Products | ${SITE.title}`;
       }
     </section>
   </div>
-  <!--Features statistics section-->
+  <!-- Features statistics section -->
   <FeaturesStatsAlt
-    title="Why Choose ScrewFast?"
-    subTitle="Transform your ideas into tangible results with ScrewFast tools. Whether you're starting with a sketch on a napkin or diving into a comprehensive construction project, our tools are engineered to help you build with confidence."
+    title="Why Choose A4B?"
+    subTitle="At A4B, we empower businesses with seamless integration, process optimization, and advanced analytics. Discover how our solutions can drive growth and operational excellence for your organization."
     benefits={[
-      "Robust and reliable tools for long-lasting performance.",
-      "Innovative solutions tailored to modern construction needs.",
-      "Customer support dedicated to your project's success.",
+      "Streamlined platforms for enhanced efficiency.",
+      "Cutting-edge analytics and automation tools.",
+      "Dedicated support for sustained success.",
     ]}
   />
-  <!--Testimonials section-->
+  <!-- Testimonials section -->
   <TestimonialsSectionAlt
-    title="What Our Customers Say"
+    title="What Our Clients Say"
     testimonials={testimonials}
   />
 </MainLayout>

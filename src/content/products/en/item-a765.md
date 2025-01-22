@@ -1,13 +1,13 @@
 ---
-title: "SF-AB A765"
-description: "Assorted Screw Set" 
+title: "iSign Digital Signing Solution"
+description: "Secure, Efficient, and Legally Compliant Digital Signing"
 main:
   id: 2
   content: |
-    Introducing the SF-AB A765 Assorted Screw Set – the ultimate solution for your screw fastening needs. This comprehensive set includes a wide variety of screws meticulously curated to tackle various projects with ease and precision.
+    Introducing iSign, the ultimate digital signing solution by A4B. iSign simplifies document workflows, ensuring secure, efficient, and legally compliant digital signing for businesses of all sizes.
   imgCard: "@/images/product-image-2.avif"
   imgMain: "@/images/product-image-main-2.avif"
-  imgAlt: "Mockup boxes of assorted screw set"
+  imgAlt: "Mockup of iSign digital signing dashboard"
 tabs:
   - id: "tabs-with-card-item-1"
     dataTab: "#tabs-with-card-1"
@@ -19,35 +19,35 @@ tabs:
     dataTab: "#tabs-with-card-3"
     title: "Blueprints"
 longDescription:
-  title: "Versatile Screw Fastening Solutions"
+  title: "Revolutionizing Document Signing"
   subTitle: |
-    The SF-AB A765 Assorted Screw Set offers unmatched versatility and convenience, making it the perfect choice for DIY enthusiasts and professionals alike. With a comprehensive selection of screws, you'll always have the right fastener for the job.
+    iSign offers a seamless and secure way to manage digital signatures, empowering businesses to reduce turnaround times and improve operational efficiency. From contracts to approvals, iSign ensures every document is handled with precision and compliance.
   btnTitle: "Contact sales to learn more"
   btnURL: "#"
 descriptionList:
-  - title: "Wide Variety"
-    subTitle: "Includes a diverse range of screw types and sizes to accommodate various applications and materials."
-  - title: "Ease of Use"
-    subTitle: "Each screw is designed for effortless installation, ensuring hassle-free fastening every time."
-  - title: "Convenience"
-    subTitle: "Eliminates the need for multiple trips to the hardware store, saving time and effort on your projects."
+  - title: "Secure Signing"
+    subTitle: "Leveraging advanced encryption to ensure the integrity and authenticity of every signature."
+  - title: "Effortless Workflow"
+    subTitle: "Streamlines the signing process, reducing manual intervention and accelerating approvals."
+  - title: "Legally Compliant"
+    subTitle: "Adheres to global standards for digital signing, ensuring compliance across multiple jurisdictions."
 specificationsLeft:
-  - title: "Material"
-    subTitle: "Constructed from high-quality materials such as stainless steel, ensuring durability and corrosion resistance."
-  - title: "Assortment"
-    subTitle: "Contains a generous assortment of screws, including wood screws, machine screws, and sheet metal screws."
-  - title: "Quantity"
-    subTitle: "Each set includes a sufficient quantity of screws to handle a wide range of projects and tasks."
-  - title: "Sizes"
-    subTitle: "Available in various sizes to suit different project requirements, ensuring compatibility and versatility."
+  - title: "Encryption"
+    subTitle: "Built with industry-leading encryption standards to safeguard sensitive information."
+  - title: "Integration"
+    subTitle: "Easily integrates with platforms like CRM, ERP, and document management systems."
+  - title: "Scalability"
+    subTitle: "Designed to support businesses of all sizes, from small startups to large enterprises."
+  - title: "User Management"
+    subTitle: "Includes robust user role and permission management for enhanced security and control."
 tableData:
   - feature: ["Specification", "Value"]
     description:
-      - ["Length (mm)", "Various"]
-      - ["Weight (g)", "N/A"]
-      - ["Material", "Stainless Steel"]
-      - ["Finish", "Assorted"]
-      - ["Package Contents", "Various screws in a set"]
+      - ["Supported Formats", "PDF, DOCX, TXT"]
+      - ["Encryption", "AES-256"]
+      - ["Compliance", "eIDAS, UETA, ESIGN"]
+      - ["Scalability", "Supports thousands of concurrent users"]
+      - ["Integration", "API and prebuilt connectors available"]
 blueprints:
   first: "@/images/blueprint-1.avif"
   second: "@/images/blueprint-2.avif"
